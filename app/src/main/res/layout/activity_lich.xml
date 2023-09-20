@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:padding="16dp"
+    tools:context=".TienIch">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:src="@drawable/lich" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECEDF4"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        tools:text="00:00:00" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:layout_marginTop="45dp"
+        android:background="#ECEDF4" />
+
+</LinearLayout>

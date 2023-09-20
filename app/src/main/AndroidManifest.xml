@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_news"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name="TienIch.XemChungKhoan"
+            android:exported="false" />
+        <activity
+            android:name=".XemLichSu"
+            android:exported="false" />
+        <activity
+            android:name="TienIch.XoSoActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_Key"
+            android:value="AizaSyB28fJcobnlPG42LxyBipxwljbMCTww4CTU"
+            tools:ignore="ExtraText" />
+
+        <activity
+            android:name="TienIch.ThoiTietActivity"
+            android:exported="false" />
+        <activity
+            android:name="TienIch.LichActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserListAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Account"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".TienIch"
+            android:exported="false"
+            android:label="@string/title_activity_video"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".Xe"
+            android:exported="false" />
+        <activity
+            android:name=".TheThao"
+            android:exported="false" />
+        <activity
+            android:name=".KhoaHoc"
+            android:exported="false" />
+        <activity
+            android:name=".SucKhoe"
+            android:exported="false" />
+        <activity
+            android:name=".GiaiTri"
+            android:exported="false" />
+        <activity
+            android:name=".KinhDoanh"
+            android:exported="false" />
+        <activity
+            android:name=".NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

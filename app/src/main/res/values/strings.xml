@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="news_api_key" translatable="false">YOUR_NEWS_API_KEY</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="category_business">Business</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_health">Health</string>
+    <string name="category_science">Science</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_technology">Technology</string>
+    <string name="news">News</string>
+    <string name="news_dialog_info">Go to Website for more details.</string>
+    <string name="goto_website">Go to Website</string>
+    <string name="search_in_everything">Search in everything…</string>
+    <string name="title_activity_suc_khoe">SucKhoe</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>
